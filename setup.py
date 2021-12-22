@@ -6,6 +6,6 @@ setup(
     packages=['dummydf'],
     install_requires=[
         'numpy',
-        'pandas; python_version == "3.7.4"',
+        'pandas,
     ],
 )

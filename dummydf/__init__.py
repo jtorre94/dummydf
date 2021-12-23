@@ -1,2 +1,2 @@
 import dummydf
-import config/
+import config_dummydf.yml

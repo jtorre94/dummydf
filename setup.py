@@ -9,5 +9,5 @@ setup(
         'pandas',
         'PyYAML'
     ],
-    data_files=[('', ['dummdf/config/config_dummydf.yml'])],
+    data_files=[('', ['dummydf/config/config_dummydf.yml'])],
 )

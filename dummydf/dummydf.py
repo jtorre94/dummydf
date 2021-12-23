@@ -53,7 +53,7 @@ class DummyDataframe:
     """
 
     # This is the default file that will be used if not specified otherwise.
-    YAML_FILE_DEFAULT = r'config/config_dummydf.yml'
+    YAML_FILE_DEFAULT = r'config_dummydf.yml'
 
     def __init__(self, yaml_config: dict = None, columns_to_display: dict = None, randomise: bool = False) -> None:
         """

@@ -1,1 +1,1 @@
-from dummydf.dummmydf import DummyDataframe
+from dummmydf.dummydf import DummyDataframe

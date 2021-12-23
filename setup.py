@@ -6,6 +6,7 @@ setup(
     packages=['dummydf'],
     install_requires=[
         'numpy',
-        'pandas'
+        'pandas',
+        'PyYAML'
     ],
 )

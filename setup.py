@@ -9,4 +9,5 @@ setup(
         'pandas',
         'PyYAML'
     ],
+    data_files=[('config', ['dummydf/config/config_dummydf.yml'])],
 )

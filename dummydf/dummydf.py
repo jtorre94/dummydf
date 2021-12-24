@@ -44,6 +44,7 @@ import pandas as pd
 import yaml
 from datetime import datetime
 from typing import Union
+import os
 
 
 class DummyDataframe:
@@ -53,7 +54,7 @@ class DummyDataframe:
     """
 
     # This is the default file that will be used if not specified otherwise.
-    YAML_FILE_DEFAULT = r'config/config_dummydf.yml'
+    YAML_FILE_DEFAULT = os.path.join(os.path.dirname(__file__), 'config', 'config_dummydf.yml')
 
     def __init__(self, yaml_config: dict = None, columns_to_display: dict = None, randomise: bool = False) -> None:
         """

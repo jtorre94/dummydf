@@ -13,10 +13,12 @@ pip install git+https://github.com/jtorre94/dummydf
 ## Usage
 
 ```python
-from dummydf import test_df
+from dummydf import test_df, test_df_random
 
-# prints the generated dataframe
+# prints a deterministic dataframe
 print(test_df)
+# prints a random dataframe
+print(test_df_random)
 ```
 
 ## Contributing

@@ -172,7 +172,7 @@ class DummyDataframe:
 
     def generate_list_with_random_floats(self) -> np.ndarray:
         self.initialise_seed()
-        return np.array(np.random.randn(self.cfg['dataframe_rows']), dtype=np.float)
+        return np.array(np.random.randn(self.cfg['dataframe_rows']), dtype=float)
 
     def generate_list_with_random_integers(self) -> np.ndarray:
         self.initialise_seed()
@@ -213,14 +213,14 @@ class DummyDataframe:
             }
         )
 
-    def insert_random_values_to_df(self, df: pd.DataFrame, value_to_insert: Union[np.float, str, None] = np.nan,
+    def insert_random_values_to_df(self, df: pd.DataFrame, value_to_insert: Union[float, str, None] = np.nan,
                                    probability: float = 0.05) -> pd.DataFrame:
         """
         To simulate a real life dataframe, insert a value randomly into the dataframe.
 
         Args:
             df (pd.DataFrame): original dataframe.
-            value_to_insert (Union[np.float, str, None]): value to insert randomly.
+            value_to_insert (Union[float, str, None]): value to insert randomly.
             probability (float): likelihood of a value to be inserted in a certain cell.
 
         Returns: pd.DataFrame

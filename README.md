@@ -7,7 +7,7 @@ Dummydf is a Python library for generating test dataframes.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dummydf.
 
 ```bash
-pip install -i https://test.pypi.org/simple/ dummydf
+pip install git+https://github.com/jtorre94
 ```
 
 ## Usage

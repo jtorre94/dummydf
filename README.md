@@ -1,28 +1,22 @@
-# Foobar
+# Dummydf
 
-Foobar is a Python library for dealing with word pluralization.
+Dummydf is a Python library for generating test dataframes.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dummydf.
 
 ```bash
-pip install foobar
+pip install -i https://test.pypi.org/simple/ dummydf
 ```
 
 ## Usage
 
 ```python
-import foobar
+from dummydf import test_df
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+# prints the generated dataframe
+print(test_df)
 ```
 
 ## Contributing

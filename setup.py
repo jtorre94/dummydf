@@ -29,4 +29,5 @@ setup(
         'pandas==1.3.5',
         'PyYAML==6.0'
     ],
+    include_package_data=True,
 )

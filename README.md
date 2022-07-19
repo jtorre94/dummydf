@@ -1,6 +1,6 @@
 # Dummydf
 
-Dummydf is a Python library for generating test dataframes.
+Dummydf is a Python library for generating test dataframes ADIOS.
 
 ## Installation
 

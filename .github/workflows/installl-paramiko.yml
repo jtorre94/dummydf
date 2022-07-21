@@ -4,5 +4,4 @@ jobs:
   check-paramiko-version:
     runs-on: ubuntu-latest
     steps:
-      - run: npm install paramiko -g
       - run: npm paramiko -v
